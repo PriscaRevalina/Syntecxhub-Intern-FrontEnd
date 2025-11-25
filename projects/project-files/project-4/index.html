@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Platform</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 1000px;
+            margin: 0 auto;
+            animation: fadeIn 0.5s ease;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #fa709a;
+        }
+        h1 { color: #fa709a; margin-bottom: 15px; font-size: 2.5rem; }
+        .subtitle { color: #fee140; font-size: 1.2rem; font-weight: 500; }
+        .section { margin: 30px 0; }
+        h2 {
+            color: #fa709a;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            border-left: 5px solid #fee140;
+            padding-left: 15px;
+        }
+        p { color: #555; line-height: 1.8; margin-bottom: 15px; font-size: 1.05rem; }
+        ul, ol { margin-left: 40px; color: #555; line-height: 2; }
+        li { margin-bottom: 10px; }
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .tag {
+            background: linear-gradient(135deg, #fa709a, #fee140);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.9rem;
+        }
+        .info-box {
+            background: linear-gradient(135deg, rgba(250, 112, 154, 0.1), rgba(254, 225, 64, 0.1));
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 5px solid #fa709a;
+            margin: 20px 0;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #fa709a, #fee140);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: 0.3s;
+            font-weight: 600;
+            box-shadow: 0 5px 15px rgba(250, 112, 154, 0.4);
+        }
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(250, 112, 154, 0.6);
+        }
+        .btn-container { text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛒 E-Commerce Platform</h1>
+            <p class="subtitle">Online Shopping Experience</p>
+        </div>
+
+        <div class="section">
+            <h2>📋 Project Overview</h2>
+            <p>Responsive e-commerce website with user-friendly interface and seamless shopping experience. This platform features modern design, intuitive navigation, and comprehensive shopping functionalities.</p>
+        </div>
+
+        <div class="info-box">
+            <h2>🎯 Project Goals</h2>
+            <ul>
+                <li>Create an intuitive and engaging shopping experience</li>
+                <li>Implement secure payment processing</li>
+                <li>Design responsive interface for all devices</li>
+                <li>Optimize for conversion and user retention</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>✨ Key Features</h2>
+            <ul>
+                <li><strong>Product Catalog:</strong> Browse products with advanced filtering and sorting</li>
+                <li><strong>Shopping Cart:</strong> Add, remove, and update items easily</li>
+                <li><strong>User Accounts:</strong> Profile management and order history</li>
+                <li><strong>Search Functionality:</strong> Quick product discovery</li>
+                <li><strong>Checkout Process:</strong> Streamlined multi-step checkout</li>
+                <li><strong>Payment Integration:</strong> Multiple payment methods support</li>
+                <li><strong>Responsive Design:</strong> Optimized for desktop, tablet, and mobile</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🛠️ Tools & Technologies</h2>
+            <div class="tags">
+                <span class="tag">HTML5 & CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Responsive Design</span>
+                <span class="tag">UI/UX Design</span>
+                <span class="tag">Payment API</span>
+                <span class="tag">Database Design</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📊 Development Highlights</h2>
+            <ol>
+                <li><strong>User Interface:</strong> Clean and modern design with intuitive navigation</li>
+                <li><strong>Performance:</strong> Fast loading times and optimized images</li>
+                <li><strong>Security:</strong> Secure checkout and data protection</li>
+                <li><strong>Mobile Optimization:</strong> Seamless mobile shopping experience</li>
+                <li><strong>User Feedback:</strong> Incorporated user testing insights</li>
+            </ol>
+        </div>
+
+        <div class="info-box">
+            <h2>🎓 Learning Outcomes</h2>
+            <p>This project provided hands-on experience with e-commerce functionality, payment integration, and creating complex user workflows. I learned about database design, state management, and building scalable web applications.</p>
+        </div>
+
+        <div class="btn-container">
+            <a href="../../index.html" class="back-btn">← Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>

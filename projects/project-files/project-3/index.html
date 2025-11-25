@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Design</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 1000px;
+            margin: 0 auto;
+            animation: fadeIn 0.5s ease;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #4facfe;
+        }
+        h1 { color: #00f2fe; margin-bottom: 15px; font-size: 2.5rem; }
+        .subtitle { color: #4facfe; font-size: 1.2rem; font-weight: 500; }
+        .section { margin: 30px 0; }
+        h2 {
+            color: #4facfe;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            border-left: 5px solid #00f2fe;
+            padding-left: 15px;
+        }
+        p { color: #555; line-height: 1.8; margin-bottom: 15px; font-size: 1.05rem; }
+        ul, ol { margin-left: 40px; color: #555; line-height: 2; }
+        li { margin-bottom: 10px; }
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .tag {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.9rem;
+        }
+        .info-box {
+            background: linear-gradient(135deg, rgba(79, 172, 254, 0.1), rgba(0, 242, 254, 0.1));
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 5px solid #4facfe;
+            margin: 20px 0;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: 0.3s;
+            font-weight: 600;
+            box-shadow: 0 5px 15px rgba(79, 172, 254, 0.4);
+        }
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(79, 172, 254, 0.6);
+        }
+        .btn-container { text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Portfolio Website Design</h1>
+            <p class="subtitle">Modern & Interactive Portfolio</p>
+        </div>
+
+        <div class="section">
+            <h2>📋 Project Overview</h2>
+            <p>Modern portfolio template with smooth scrolling and engaging animations for showcasing creative work. This project demonstrates advanced CSS techniques, responsive design principles, and interactive JavaScript features.</p>
+        </div>
+
+        <div class="info-box">
+            <h2>🎯 Project Goals</h2>
+            <ul>
+                <li>Create a visually stunning and professional portfolio</li>
+                <li>Implement smooth scrolling and page transitions</li>
+                <li>Ensure responsive design across all devices</li>
+                <li>Showcase projects in an engaging manner</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>✨ Key Features</h2>
+            <ul>
+                <li><strong>Smooth Scrolling:</strong> Seamless navigation between sections</li>
+                <li><strong>Animated Elements:</strong> Engaging animations on scroll</li>
+                <li><strong>Responsive Grid:</strong> Adaptive layout for all screen sizes</li>
+                <li><strong>Interactive Cards:</strong> Hover effects and transitions</li>
+                <li><strong>Contact Form:</strong> Integrated contact functionality</li>
+                <li><strong>Modern UI/UX:</strong> Clean and professional design</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🛠️ Tools & Technologies</h2>
+            <div class="tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Responsive Design</span>
+                <span class="tag">CSS Animations</span>
+                <span class="tag">Flexbox & Grid</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📊 Design Principles</h2>
+            <ol>
+                <li><strong>Mobile-First:</strong> Designed for mobile and scaled up</li>
+                <li><strong>Performance:</strong> Optimized for fast loading</li>
+                <li><strong>Accessibility:</strong> WCAG compliant design</li>
+                <li><strong>User Experience:</strong> Intuitive navigation and interactions</li>
+                <li><strong>Visual Hierarchy:</strong> Clear content organization</li>
+            </ol>
+        </div>
+
+        <div class="info-box">
+            <h2>🎓 Learning Outcomes</h2>
+            <p>This project enhanced my frontend development skills, particularly in creating responsive layouts, implementing smooth animations, and building user-centric interfaces. I learned advanced CSS techniques and JavaScript DOM manipulation.</p>
+        </div>
+
+        <div class="btn-container">
+            <a href="../../index.html" class="back-btn">← Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>

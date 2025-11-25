@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Ordering System at the Nearest Pharmacy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 1000px;
+            margin: 0 auto;
+            animation: fadeIn 0.5s ease;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #f093fb;
+        }
+        h1 { color: #f5576c; margin-bottom: 15px; font-size: 2.5rem; }
+        .subtitle { color: #f093fb; font-size: 1.2rem; font-weight: 500; }
+        .section { margin: 30px 0; }
+        h2 {
+            color: #f093fb;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            border-left: 5px solid #f5576c;
+            padding-left: 15px;
+        }
+        p { color: #555; line-height: 1.8; margin-bottom: 15px; font-size: 1.05rem; }
+        ul, ol { margin-left: 40px; color: #555; line-height: 2; }
+        li { margin-bottom: 10px; }
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .tag {
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.9rem;
+        }
+        .info-box {
+            background: linear-gradient(135deg, rgba(240, 147, 251, 0.1), rgba(245, 87, 108, 0.1));
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 5px solid #f093fb;
+            margin: 20px 0;
+        }
+        .back-btn, .drive-btn {
+            display: inline-block;
+            margin: 20px 10px;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: 0.3s;
+            font-weight: 600;
+            box-shadow: 0 5px 15px rgba(240, 147, 251, 0.4);
+        }
+        .drive-btn {
+            background: linear-gradient(135deg, #4285f4, #34a853);
+            box-shadow: 0 5px 15px rgba(66, 133, 244, 0.4);
+        }
+        .back-btn:hover, .drive-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(240, 147, 251, 0.6);
+        }
+        .drive-btn:hover {
+            box-shadow: 0 8px 25px rgba(66, 133, 244, 0.6);
+        }
+        .btn-container { text-align: center; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>💊 Drug Ordering System</h1>
+            <p class="subtitle">Pharmacy Management System</p>
+        </div>
+
+        <div class="section">
+            <h2>📋 Project Overview</h2>
+            <p>Conducting analysis and design of drug purchasing system at the nearest pharmacy, compiling comprehensive System Requirements Specification Document (SyRS) and modeling business processes (BPMN) for the search to payment flow.</p>
+        </div>
+
+        <div class="info-box">
+            <h2>🎯 Project Goals</h2>
+            <ul>
+                <li>Analyze current drug ordering processes and identify inefficiencies</li>
+                <li>Design a user-friendly system for finding nearest pharmacies</li>
+                <li>Create comprehensive system documentation (SyRS)</li>
+                <li>Model business processes from search to payment completion</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>✨ Key Features</h2>
+            <ul>
+                <li><strong>Location-Based Search:</strong> Find nearest pharmacy based on user location</li>
+                <li><strong>Drug Availability Check:</strong> Real-time stock verification</li>
+                <li><strong>Online Ordering:</strong> Place orders with prescription upload</li>
+                <li><strong>Payment Integration:</strong> Multiple payment method support</li>
+                <li><strong>Order Tracking:</strong> Real-time order status updates</li>
+                <li><strong>BPMN Modeling:</strong> Detailed process flows documentation</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🛠️ Tools & Technologies</h2>
+            <div class="tags">
+                <span class="tag">Bizagi</span>
+                <span class="tag">BPMN</span>
+                <span class="tag">Systems Analysis</span>
+                <span class="tag">SyRS Documentation</span>
+                <span class="tag">Process Modeling</span>
+                <span class="tag">Requirements Engineering</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📊 Development Process</h2>
+            <ol>
+                <li><strong>Requirements Gathering:</strong> Interviewed stakeholders and analyzed needs</li>
+                <li><strong>System Analysis:</strong> Documented functional and non-functional requirements</li>
+                <li><strong>Process Modeling:</strong> Created BPMN diagrams for all workflows</li>
+                <li><strong>SyRS Documentation:</strong> Comprehensive system specification</li>
+                <li><strong>Validation:</strong> Reviewed with stakeholders and refined</li>
+            </ol>
+        </div>
+
+        <div class="info-box">
+            <h2>🎓 Learning Outcomes</h2>
+            <p>This project strengthened my skills in systems analysis, business process modeling, and technical documentation. I gained hands-on experience with BPMN notation and learned how to translate business requirements into technical specifications.</p>
+        </div>
+
+        <div class="btn-container">
+            <a href="https://docs.google.com/document/d/1PfJXBEFtGb6zJEReUb2GvguVa-n_NsZ6/edit?usp=drive_link&ouid=103581536159885886135&rtpof=true&sd=true" class="drive-btn" target="_blank">📁 View on Google Drive</a>
+            <a href="../../index.html" class="back-btn">← Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>
